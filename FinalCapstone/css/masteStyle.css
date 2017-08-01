@@ -1,0 +1,71 @@
+﻿body {
+   background: url("http://localhost:55794/images/imgBack.jpg") no-repeat center center fixed;
+   background-size:cover;
+   opacity: .95;
+   margin: 0 auto 0 auto;
+   padding: 0;
+}
+
+header {
+    background-color:black;
+    border-radius: 5px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+     border-radius: 5px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}
+
+article img {
+    
+}
+
+article {
+    background-color: #e6d6d6;
+    border-radius: 10px;
+    padding: 10px;
+    border: thin;
+    border-color: #333;
+}
+
+section {
+    background-color: grey;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: #333;
+  border: thin;
+}
+
+footer {
+    background-color: #333;
+   border-radius: 5px;
+}
+
+footer p {
+    text-align: center;
+}
